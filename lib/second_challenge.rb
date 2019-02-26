@@ -11,6 +11,3 @@ groceries.value.flatten
 
 
 end
-
-
-end
