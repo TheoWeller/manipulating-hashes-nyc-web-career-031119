@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-  contacts.delete_if {|key, value| key == favorite_icecream_flavors && value == "strawberry"}
+  contacts.delete_if {|key, value| key == favorite_icecream_flavors: && value == "strawberry"}
 
 
   #remember to return your newly altered contacts hash!
